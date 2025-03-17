@@ -1,0 +1,194 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.cover-container {
+    height: 100vh;
+    background-color: aliceblue;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cover-content {
+    text-align: center;
+    color: rgb(197, 126, 126);
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+.btn {
+    background-color: #007bff;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+
+
+
+
+
+
+* {
+    box-sizing: border-box;
+  }
+  html, body {
+    margin: 0;
+    padding: 0;
+    background-color:rgb(253, 253, 255);
+  }
+  .form-container {
+    margin: 20px;
+    padding: 15px;
+    background: #173459;
+    color: white;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3), 0 7px 21px 0 rgba(0, 0, 0, 0.20);
+  }
+  .input-cnt {
+    display: flex; /* display the icon and the input in a line */
+    margin-bottom: 15px;
+  }
+  .input-cnt:last-child {
+    margin-bottom: 0px;
+  }
+  .input-cnt > i {
+    min-width: 40px; /* set a minimum width for the icon */
+    padding: 10px; /* make sure the icon is centered vertically */
+    text-align: center; /* horizontally center the icon */
+    background: lightgrey;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    color: #0076ff;
+  }
+  /* change styles when focused */
+  .input-cnt:hover > i {
+    background: #0076ff;
+    color: white;
+  }
+  /* style the input and textarea */
+  .input-cnt > input[type="text"], .input-cnt > textarea {
+    outline: none;
+    border: none;
+    padding: 10px;
+    border: 1px solid lightgrey;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 0px;
+    width: 100%;
+  }
+  /* center textarea icon and increase size */
+  .textarea-icon {
+    padding: 60px 10px !important; /* top and bottom paddings are set to 60px */
+  }
+  /* style the submit button */
+  .input-cnt > input[type="submit"] {
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    width: 75%;
+    margin: 0 auto;
+    font-size: 105%;
+    padding: 8px;
+    color: #0076ff;
+    background: white;
+    transition-duration: .5s;
+  }
+  /* add a hover effect for the submit button */
+  .input-cnt > input[type="submit"]:hover {
+    color: white;
+    background: #0076ff;
+  }
+
+
+  
+.project {
+  background-color: grey;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+.project img {
+  width: 200px;
+  height: auto;
+  margin-right: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.profile-picture {
+  width: 150px;
+  /* Adjust this to your preferred size */
+  height: 150px;
+  border-radius: 50%;
+  /* Makes the image circular */
+  object-fit: cover;
+  /* Ensures the image doesn’t stretch */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* Adds a subtle shadow */
+}
+
+
+
+
+
+
+
+/*for picture*/
+.profile-picture {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 0;
+  border: 2px solid #000;
+
+  
+  /* Adds space between image and text */
+}
+
+#about{
+  align-items: center;
+  background-color: rgb(119, 121, 121);
+}
